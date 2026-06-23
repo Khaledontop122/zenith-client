@@ -53,7 +53,7 @@ public final class ZenithHudOverlay {
     private static List<String> hudLines(Minecraft minecraft) {
         List<String> lines = new ArrayList<>();
         lines.add("Zenith Client");
-        lines.add("FPS " + Minecraft.getFps());
+        lines.add("FPS " + Minecraft.getInstance().getFps());
         lines.add("Ping " + ping(minecraft));
         lines.add("FPS Boost " + state(ModuleRegistry.FPS_BOOST));
         lines.add("Particles " + state(ModuleRegistry.LOW_PARTICLE_MODE));
