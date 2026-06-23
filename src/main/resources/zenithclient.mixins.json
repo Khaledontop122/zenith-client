@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.zenithclient.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "zenithclient.refmap.json",
+  "client": [
+    "LevelRendererMixin",
+    "ParticleEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
